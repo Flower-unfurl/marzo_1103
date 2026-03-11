@@ -1,0 +1,27 @@
+{
+  "name": "marzo_1103",
+  "version": "1.0.0",
+  "description": "KT_1103",
+  "homepage": "https://github.com/Flower-unfurl/marzo_1103#readme",
+  "bugs": {
+    "url": "https://github.com/Flower-unfurl/marzo_1103/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flower-unfurl/marzo_1103.git"
+  },
+  "license": "ISC",
+  "author": "KhangCaChua",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
